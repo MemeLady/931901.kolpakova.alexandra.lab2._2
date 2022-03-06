@@ -1,0 +1,26 @@
+﻿@{
+    ViewData["Title"] = "ManualWithSerapateHandlers";
+}
+
+<div class="container-fluid">
+    <h2>ManualWithSerapateHandlers</h2>
+    <form method="post" action="~/Home/SeparateAct">
+        <div>
+            <input name="first" style="width:300px;" />
+        </div>
+        <div>
+            <select name="operations">
+                <option>+</option>
+                <option>-</option>
+                <option>*</option>
+                <option>/</option>
+            </select>
+        </div>
+        <div>
+            <input name="second" style="width:300px;" />
+        </div>
+        <div>
+            <button>Submit</button> 
+        </div>
+    </form>
+</div>
